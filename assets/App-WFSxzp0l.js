@@ -733,7 +733,7 @@ const Rn = {
     },
     keeper: {
         get name() {
-            return s("Pak Dul", "Mr. Dul")
+            return s("Bang Dis", "Bang Dis")
         },
         get title() {
             return s("Penjaga taman", "Garden keeper")
@@ -1271,7 +1271,7 @@ function Dn({
             className: "pq-load-stack",
             children: [a.jsx("span", {
                 className: "pq-load-for",
-                children: I("Untuk Novridha Zahra", "For Novridha Zahra")
+                children: I("Untuk Chee", "For Chee")
             }), a.jsx("h1", {
                 className: "pq-load-title",
                 children: s("Taman kecil sedang disiapkan", "A little garden is being prepared")
@@ -1607,7 +1607,7 @@ function Wn({
             })]
         }), a.jsxs("span", {
             className: "pq-credit pq-rise",
-            children: ["✨ Made by Raihan"]
+            children: ["✨ Made by Cibong"]
         })]
     })
 }
@@ -3604,7 +3604,7 @@ const vr = [{
     }])],
     Nr = [{
         id: "sender",
-        label: "Bicara dengan Raihan",
+        label: "Bicara dengan Cibong",
         point: {
             x: .72,
             z: 1.6
@@ -4060,7 +4060,7 @@ function Yr(e, t = j.from) {
         chapter: s("06 · KEJUTAN MENUNGGU", "06 · A SURPRISE AWAITS")
     } : {
         title: s("Izin menyeberang", "Permission to cross"),
-        hint: s("Sampaikan keperluanmu kepada Pak Dul di jembatan.", "Tell Mr. Dul at the bridge why you are here."),
+        hint: s("Sampaikan keperluanmu kepada Bang Dis di jembatan.", "Tell Bang Dis at the bridge why you are here."),
         target: "bridge",
         chapter: s("04 · PENJAGA JEMBATAN", "04 · THE BRIDGE KEEPER")
     } : {
@@ -4372,7 +4372,7 @@ function Jr() {
             [e.quest.noteRead, s("Baca surat sambutan", "Read the welcome letter")],
             [e.quest.doorChecked, s("Periksa pintu rumah", "Check the front door")],
             [e.quest.sageClue, s("Dengar petunjuk Kakek", "Hear the Old Sage's clue")],
-            [e.bridgeOpen, s("Dapatkan izin Pak Dul", "Get Mr. Dul's permission")],
+            [e.bridgeOpen, s("Dapatkan izin Bang Dis", "Get Bang Dis's permission")],
             [e.quest.key !== "hidden", s("Temukan kunci", "Find the key")],
             [e.quest.houseUnlocked, s("Buka rumah", "Open the house")],
             [e.ended, s("Rayakan ulang tahun", "Celebrate the birthday")]
@@ -4410,7 +4410,7 @@ function Jr() {
             je(d), T.current?.effect("notify"), clearTimeout(Mt.current), Mt.current = window.setTimeout(() => je(""), 3500)
         },
         xe = d => {
-            t(y => Bt(y, d)), d.type === "memory" && (T.current?.effect("memory"), ye(s("Satu kenangan tersimpan.", "A memory has been kept."))), d.type === "bridge" && (T.current?.effect("bridge"), ye(s("Pak Dul menepi. Cari kunci di gerai seberang sungai.", "Mr. Dul steps aside. Look for the key at the stall across the river."))), d.type === "finish" && T.current?.effect("celebrate")
+            t(y => Bt(y, d)), d.type === "memory" && (T.current?.effect("memory"), ye(s("Satu kenangan tersimpan.", "A memory has been kept."))), d.type === "bridge" && (T.current?.effect("bridge"), ye(s("Bang Dis menepi. Cari kunci di gerai seberang sungai.", "Bang Dis steps aside. Look for the key at the stall across the river."))), d.type === "finish" && T.current?.effect("celebrate")
         },
         R = () => {
             Ye.current++, S.current?.cancelAvatarChoice(), L(null), De({
@@ -4495,7 +4495,7 @@ function Jr() {
             }
             if (d === "album") {
                 if (!y.bridgeOpen || !y.quest.sageClue) {
-                    ye(s("Petunjuk Kakek dan izin Pak Dul akan membawamu ke gerai ini.", "The Old Sage's clue and Mr. Dul's permission will lead you to this stall."));
+                    ye(s("Petunjuk Kakek dan izin Bang Dis akan membawamu ke gerai ini.", "The Old Sage's clue and Bang Dis's permission will lead you to this stall."));
                     return
                 }
                 y.quest.key === "hidden" ? L("inspection") : (F(0), L("album"));
