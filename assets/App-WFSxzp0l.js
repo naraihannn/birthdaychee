@@ -1524,7 +1524,7 @@ function Wn({
             className: "pq-title-block",
             children: [a.jsx("span", {
                 className: "pq-eyebrow pq-rise",
-                children: I("HADIAH UNTUK NOVRIDHA ZAHRA", "A GIFT FOR NOVRIDHA ZAHRA")
+                children: I("HADIAH UNTUK CHEE", "A GIFT FOR CHEE")
             }), a.jsxs("h1", {
                 id: "pq-title-heading",
                 className: "pq-wordmark pq-rise",
@@ -1650,7 +1650,7 @@ const Ve = new Map,
     }) : I("Untuk {name}", "For {name}", {
         name: e
     }),
-    ds = () => j.watermark ? "ZAHRA BIRTHDAY’S GAME" : "PIXEL PLAY",
+    ds = () => j.watermark ? "CHEE BIRTHDAY’S GAME" : "PIXEL PLAY",
     hs = () => "LITTLE MOMENTS",
     ks = e => `${j.watermark ? "Birthday" : s("Kenangan", "Memory")}-${j.name}-${e.charAt(0).toUpperCase() + e.slice(1)}.png`,
     Jn = () => j.watermark ? s("SEBUAH TAMAN KECIL DARI HEYTML", "A LITTLE GARDEN FROM HEYTML") : I("SEBUAH TAMAN KECIL DARI {name}", "A LITTLE GARDEN FROM {name}", {
@@ -5399,7 +5399,7 @@ function Jr() {
                         className: "book-page",
                         children: [a.jsx("span", {
                             className: "eyebrow",
-                            children: s("SULUNG — KUNTO AJI · TAHUN 2018", "SULUNG — KUNTO AJI · 2018")
+                            children: s("REHAT — KUNTO AJI · TAHUN 2018", "REHAT — KUNTO AJI · 2018")
                         }), a.jsx("h2", {
                             children: s("Tidak harus selalu sempurna.", "It does not always have to be perfect.")
                         }), a.jsx("p", {
