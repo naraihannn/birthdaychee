@@ -10882,7 +10882,7 @@ async function Dr() {
     } = await Bg(async () => {
         const {
             default: z
-        } = await import("./App-WFSxzp0l.js").then(m => m.ao);
+        } = await import("./App-WFSxzp0l.js?v=20261121-2").then(m => m.ao);
         return {
             default: z
         }
